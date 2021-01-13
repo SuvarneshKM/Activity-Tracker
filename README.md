@@ -1,6 +1,43 @@
 # todo
 command-line (CLI) program that lets you manage your todos
 
+## Getting started
+
+1. Install Python: Python is usually installed by default on most modern systems. To check what your currently have, open a terminal and run the following command:
+
+   ```
+   python3 --version
+   ```
+
+   This should output some information on the installed Python version.
+   You can also install ruby by following these instructions: https://installpython3.com/
+
+### Create Create symbolic link to the executable file
+
+#### On Windows
+
+To create a symbolic link on Windows, you'll need to run either the Windows Command Prompt, or Windows Powershell **with administrator privileges**. To do so, right-click on the icon for Command Prompt, or Powershell, and choose the _"Run as Administrator"_ option.
+
+**Command Prompt:**
+
+```
+> mklink todo todo.bat
+```
+
+**Powershell:**
+
+```
+> cmd /c mklink todo todo.bat
+```
+
+#### On \*nix:
+
+Run the following command in your shell:
+
+```
+$ ln -s todo.sh todo
+```
+
 ## Usage
 
 ### 1. Help
