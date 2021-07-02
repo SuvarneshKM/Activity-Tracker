@@ -1,4 +1,4 @@
-# todo
+# Activity-Tracker
 command-line (CLI) program that lets you manage your todos
 
 ## Getting started
